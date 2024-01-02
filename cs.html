@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Spectral:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>A Timeline of my CS Journey</h1>
+        <img src="mliang3.jpg" class="header-pic">
+        <h2>Click on the boxes to learn more about my computer science experiences.</h2>
+        <h2>Feel free to connect with me on <a href="https://www.linkedin.com/in/michellewliang/">LinkedIn</a>!</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content1')">First Intro to Technology</div>
+                <div class="timeline-content" id="content1">
+                    <span class="date">2012</span>
+                    <p>I began my journey when I was 7 with my dad introducing me to Raspberry Pi. I was captivated by the potential of such a tiny piece of tech!</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content2')">Middle School</div>
+                <div class="timeline-content" id="content2">
+                    <span class="date">2016 - 2018</span>
+                    <p>I started dabbling in programming through Scratch to understand basic computer science concepts. I eventually moved onto taking a few online Python classes!</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content3')">First CS Class..</div>
+                <div class="timeline-content" id="content3">
+                    <span class="date">2020</span>
+                    <p>In junior year, I took my first computer science class! It was definitely tough, but I ended up earning the book award for top student!</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content4')">My 1st Internship</div>
+                <div class="timeline-content" id="content4">
+                    <span class="date">May 2021 - August 2021</span>
+                    <p>The summer after my junior year, I earned an internship with ACAN, a nonprofit I had been volunteering with for a couple of years. I led a team of 4 other interns to develop a website for them!</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content6')">First Personal Project</div>
+                <div class="timeline-content" id="content6">
+                    <span class="date">September 2021 - May 2022</span>
+                    <p>During my senior year, I used Swift and APIs to develop Foodify, an iOS app that recommends the best-matching recipes based on ingredients in the user’s fridge. I was even featured in my high school's "Excellence in STEM Education" cover.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content7')">Google Computer Science Summer Institute</div>
+                <div class="timeline-content" id="content7">
+                    <span class="date">July 2022 - August 2022</span>
+                    <p>In this program, I strengthened my skills in front-end development. My final project was an interactive productivity website called Potativity, which I demoed to Google engineers and community leaders.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content8')">Big Data Big Impact</div>
+                <div class="timeline-content" id="content8">
+                    <span class="date">August 2022 - May 2023</span>
+                    <p>During my freshman year at GT, I was project lead at Big Data Big Impact. I led a team of 15 students to design predictive mapping ML model aimed at optimizing crop yields by using public satellite data & climate patterns.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content9')">Google STEP Internship</div>
+                <div class="timeline-content" id="content9">
+                    <span class="date">May 2023 - August 2023</span>
+                    <p>This past summer, I worked as a STEP intern for Google Ads. I learned 2 languages, C++ and Dart, and addressed 21% of my team's user complaints by optimizing topic availability!</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content10')">Deep Learning Playground</div>
+                <div class="timeline-content" id="content10">
+                    <span class="date">September 2023 - Present</span>
+                    <p>I've been working as a developer on no-code platform called Deep Learning Playground to help students wanting to learn more about neural networks and tabular machine learning with custom parameters.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-title" onclick="toggleTimelineItem(event, 'content11')">Google SWE... and maybe Bits of Good?</div>
+                <div class="timeline-content" id="content11">
+                    <span class="date">Future</span>
+                    <p>Looking to the future, I'm eager to keep learning! I will be returning to Google and working as a SWE intern in Sunnyvale, and I hope that Bits of Good also has a role in my future.</p>
+                </div>
+            </div>
+        <div class="nav">
+            <a href="index.html"><button>Return to Home</button></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
